@@ -45,6 +45,11 @@ pt-BR:
       signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação foi enviado para seu endereço de e-mail. Por favor, verifique-o, para ativar sua conta."
       update_needs_confirmation: "Você atualizou sua conta com sucesso, mas precisamos verificar o seu novo endereço de e-mail. Por favor, verifique seu e-mail e clique no link de confirmação para confirmar o seu novo endereço de e-mail."
       updated: "Sua conta foi atualizada com sucesso."
+      edit:
+        title: "Meu perfil"
+        leave_blank_if_you_don_t_want_to_change_it: "deixe em branco caso nÃ£o queira alterÃ¡-la"
+        current_password_to_confirm: "precisamos da sua senha atual para confirmar suas mudanÃ§as"
+        update: "Atualizar"
     sessions:
       signed_in: "Logado com sucesso."
       signed_out: "Saiu com sucesso."
