@@ -60,3 +60,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::FileUpdateChecker
 end
+
+# Setup Better errors to run in a docker container
+ip = IPSocket.getaddress(Socket.gethostname)
+BetterErrors::Middleware.allow_ip! "#{ip}/16"
