@@ -7,10 +7,10 @@
           <%= icon('fas', 'user-cog') %>
         </span>
         <div>
-          <h4 class="m-0" data-toggle="tooltip" data-placement="bottom" title="Clique aqui para acessar a Ã¡rea administrativa">
-            <%= link_to 'Área administrativa', '#' %>
+          <h4 class="m-0" data-toggle="tooltip" data-placement="bottom" title="<%= t('views.tooltip.home.admin.sign_in')%>">
+            <%= link_to t('views.links.home.admin.sign_in'), new_admin_session_path %>
           </h4>
-          <small class="text-muted">Administradores</small>
+          <small class="text-muted"><%= t('views.admin.name.plural')%></small>
         </div>
       </div>
     </div>
@@ -24,9 +24,9 @@
         </span>
         <div>
           <h4 class="m-0" data-toggle="tooltip" data-placement="bottom" title="Clique aqui para acessar a Ã¡rea do cliente">
-              <%= link_to 'Área do usuário', '#'  %>
+              <%= link_to t('views.links.home.user.sign_in'), '#'  %>
           </h4>
-          <small class="text-muted">Usuários</small>
+          <small class="text-muted"><%= t('views.user.name.plural')%></small>
         </div>
       </div>
     </div>
