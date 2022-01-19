@@ -19,5 +19,5 @@
 <% end %>
 
 <%= provide(:link) do %>
-  Forgot your password? <%= link_to 'Reset it', new_password_path(resource_name)%>
+  <%= t('views.session.new.forgot')%> <%= link_to t('views.session.new.links.reset'), new_password_path(resource_name)%>
 <% end %>
